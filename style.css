@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url(img/bg-sakura-sq3.png);
+    font-family: Helvetica, sans-serif;
+    
+}
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#logo {
+    border-radius: 50%;
+}
+header {
+    width: 100%;
+    background: #042E5D;
+    border-radius: 0 0 10px 10px;
+}
+header #logo {
+    width: 50px;
+    height: 50px;
+}
+.navbar .nav-item a.nav-link {
+    color: #75CEB1;
+}
+
+h1 {
+    color: #75CEB1;
+    text-shadow: 1px 2px 5px  rgba(0,0,0,0.7);
+}
+h3 {
+    background-color: #75CEB1;
+    color: #042E5D;
+    width: fit-content;
+    min-width: 30%;
+    margin-left: -1.5rem;
+}
+.card {
+    color: #042E5D;
+    border: 2px solid #22aa7e;
+    background: #AFF0DB;
+}
+#photo {
+    color: #75CEB1;
+}
+
+section {
+    background-color: rgb(16,31,70, 0.9);
+    border: 1px solid #75CEB1;
+}
+
+
+footer {
+    text-align: center;
+   
+    color: #75ceb1;
+    background: rgb(0, 31,21, 0.7);
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 0.8em;
+    border: 2px solid #22aa7e;
+    border-radius: 5px;
+
+}
