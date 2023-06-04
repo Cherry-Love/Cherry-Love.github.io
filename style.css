@@ -8,11 +8,14 @@ body {
     
 }
 #wrapper {
-    max-width: 1000px;
+    overflow-wrap: break-word;
     margin: 0 auto;
 }
 #logo {
-    border-radius: 50%;
+    background-color: #75ceb1;
+    width: calc(height);
+    background-image: url(img/sq.jpg);
+    background-size: contain;
 }
 header {
     width: 100%;
@@ -46,7 +49,10 @@ h3 {
 #photo {
     color: #75CEB1;
 }
-
+#photo img {
+    width: 280px;
+    height: auto;
+}
 section {
     background-color: rgb(16,31,70, 0.9);
     border: 1px solid #75CEB1;
