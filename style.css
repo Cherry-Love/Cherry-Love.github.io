@@ -26,8 +26,8 @@ header #logo {
     width: 50px;
     height: 50px;
 }
-.navbar .nav-item a.nav-link {
-    color: #75CEB1;
+.navbar .nav-item a.nav-link, #socials a i {
+    color: #75CEB1 !important;
 }
 
 h1 {
