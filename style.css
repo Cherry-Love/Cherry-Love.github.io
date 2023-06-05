@@ -29,6 +29,9 @@ header #logo {
 .navbar .nav-item a.nav-link, #socials a i {
     color: #75CEB1 !important;
 }
+.navbar .nav-item a.nav-link:hover, #socials a i:hover {
+    color: #d0ede3 !important;
+}
 
 h1 {
     color: #75CEB1;
