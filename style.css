@@ -50,7 +50,7 @@ h3 {
     color: #75CEB1;
 }
 #photo img {
-    width: 280px;
+    max-width: 280px;
     height: auto;
 }
 section {
@@ -61,13 +61,10 @@ section {
 
 footer {
     text-align: center;
-   
     color: #75ceb1;
     background: rgb(0, 31,21, 0.7);
     padding: 10px 20px;
     margin: 10px 0;
     font-size: 0.8em;
     border: 2px solid #22aa7e;
-    border-radius: 5px;
-
 }
